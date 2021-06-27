@@ -22,10 +22,9 @@ body {
 }
 
 #right {
-    width: 500px;
+    width: 400px;
     height: 100%;
     position: relative;
-    border: red dashed;
     top: 100px;
     left: 20%;
 }
@@ -207,18 +206,42 @@ button:hover {
     border: lightgray solid;
 }
 
-.req h1 {
+#right h1 {
     background-color: #333;
     color: white;
     align-items: center;
     height: 50px;
     padding: 5px 15px;
 }
-.req p img {
+
+#right img {
     border-radius: 50%;
-    height: 40px;
+    height: 50px;
+    margin-right: 10px;
+    padding: 5px;
 }
 
-.req p {
+.user-line {
+    display: flex;
     justify-content: space-between;
+    margin: 10px 5px;
+}
+
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+/* req end */
+
+/* connect begin */
+.connect {
+    height: auto;
+    width: 400px;
+    border: lightgray solid;
+    margin-top: 50px;
+}
+
+.connect .start {
+    margin: 10px 5px;
 }
