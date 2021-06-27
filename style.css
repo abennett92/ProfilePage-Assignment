@@ -8,8 +8,9 @@
 }
 
 body {
-    height: 1500px;
-    width: 1500px;
+    height: auto;
+    width: auto;
+    display: flex;
 }
 
 #left {
@@ -21,11 +22,12 @@ body {
 }
 
 #right {
-    width: 700px;
+    width: 500px;
     height: 100%;
+    position: relative;
     border: red dashed;
     top: 100px;
-    left: 65%;
+    left: 20%;
 }
 
 /* navbar begin */
@@ -52,9 +54,10 @@ body {
 .nav-links {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: absolute;
-    right: 25px;
+    width: 400px;
+    left: 340px;
 }
 
 li a {
@@ -196,3 +199,26 @@ button:hover {
     color: black;
 }
 /* user_card end */
+
+/* req begin */
+.req {
+    height: auto;
+    width: 400px;
+    border: lightgray solid;
+}
+
+.req h1 {
+    background-color: #333;
+    color: white;
+    align-items: center;
+    height: 50px;
+    padding: 5px 15px;
+}
+.req p img {
+    border-radius: 50%;
+    height: 40px;
+}
+
+.req p {
+    justify-content: space-between;
+}
